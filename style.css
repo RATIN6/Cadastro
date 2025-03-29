@@ -1,0 +1,161 @@
+
+body{
+    font-family: 'Glacial indefference';
+    background-color: #180f0f;
+    color: #ffffff;
+}
+
+.logocad{
+    display:flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+}
+.logocad h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logocad img{
+    width: 250px;
+}
+
+.acad a{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 40px;
+}
+.acad {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 10em auto;    
+}
+
+.acad a:hover{
+    color: #f77307;
+    transition: 0.5s;
+}
+
+.bloco1 {
+    align-items: center;
+    padding: 2em;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+}
+
+/* Cliente */
+.box{
+    position: absolute;
+    width: 484px;
+    height: 540px;
+    top: 50%;
+    left: 50%;
+    color: #110e0e;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25spx;
+    margin-left: 9.5em;
+}
+
+.box img{
+    width: 150px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #545454;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+
+label, input{
+    margin: 1em;
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputuser:focus ~ .labelinput,
+.inputuser:valid ~ .labelinput{
+    top: -25px;
+    font-size: 18px;
+    color: #545454;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #161718;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 30%;
+    margin-top: 22%;
+    cursor: pointer;
+}
+
+.volta a{
+    position: absolute;
+    color: #252429;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    padding: 1em;
+    margin-left: 101px;
+    margin-top: 45%;
+    background-color: #ffffff;
+}
+
+/* Produto*/
+
+.headp{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 8em;
+}
+
+.headp h1{
+    margin-left: 35px;
+    font-size: 45px;
+}
+
+/* Pedido*/ 
+
+.button-pedidos {
+    background-color: #161718;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 145px;
+    margin-top: 10px;
+}
